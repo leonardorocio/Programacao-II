@@ -1,4 +1,4 @@
-#!c:\users\leona\documents\projetos_django\django_tutoriais\tutorial_03\pagesenv\scripts\python.exe
+#!C:\Users\leona\Documents\Docs1\Django_Tutoriais\Tutorial_03\pagesenv\Scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
