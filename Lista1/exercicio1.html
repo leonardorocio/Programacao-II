@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Digite a proposta</p>
+    <input type="text" name="proposta" id="proposta">
+    <button onclick="calculaDiferenca()">Calcular</button>
+    <p id="resultado"></p>
+</body>
+
+<script>
+    function calculaDiferenca() {
+        let valor = document.getElementById('proposta').value;
+        document.getElementById('resultado').innerHTML = valor - 170;
+    }
+</script>
+</html>
