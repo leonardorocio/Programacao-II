@@ -7,17 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Digite os dias</p>
-    <input type="text" name="dias" id="dias">
-    <button onclick="calculaLikes()">Calcular</button>
-    <p id="resultado"></p>
+
 </body>
 
 <script>
-    function calculaLikes() {
-        let valor = document.getElementById('dias').value;
+        let valor = prompt('Digite os dias:')
         let qntLikes = valor * 48;
-        document.getElementById('resultado').innerHTML = qntLikes;
-    }
+        alert(`Quantidade de Likes é igual a ${qntLikes}`)
 </script>
 </html>

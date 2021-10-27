@@ -14,10 +14,8 @@
 </body>
 
 <script>
-    function calculaTweets() {
-        let valor = document.getElementById('tweetPorAula').value;
-        let qntTweets = valor * 80;
-        document.getElementById('resultado').innerHTML = qntTweets;
-    }
+    let valor = prompt('Digite os tweets por aula:');
+    let qntTweets = valor * 80;
+    alert(`A quantidade de tweets no ano é de ${qntTweets}`)
 </script>
 </html>

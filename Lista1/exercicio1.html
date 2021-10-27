@@ -7,16 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Digite a proposta</p>
-    <input type="text" name="proposta" id="proposta">
-    <button onclick="calculaDiferenca()">Calcular</button>
-    <p id="resultado"></p>
 </body>
 
 <script>
-    function calculaDiferenca() {
-        let valor = document.getElementById('proposta').value;
-        document.getElementById('resultado').innerHTML = valor - 170;
-    }
+    let valor = prompt("Faça uma proposta");
+    let dif = valor - 170;
+    alert(`A diferença é de ${dif} reais`)
+
+
 </script>
 </html>
