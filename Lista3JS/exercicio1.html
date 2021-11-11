@@ -10,12 +10,15 @@
     
 </body>
     <script>
-        let time1 = prompt('Digite a pontuação do time 1');
-        let time2 = prompt('Digite a pontuação do time 2');
-        if (time1 > time2) {
-            alert('Time 1 foi o vencedor');
-        } else if (time2 > time1) {
-            alert('Time 2 foi o vencedor');
+        let nomeTime1 = prompt('Digite o nome do time 1:');
+        let pontosTime1 = parseInt(prompt('Digite a pontuação do time 1:'));
+        let nomeTime2 = prompt('Digite o nome do time 2:');
+        let pontosTime2 = parseInt(prompt('Digite a pontuação do time 2:'));
+
+        if (pontosTime1 > pontosTime2) {
+            alert(`${nomeTime1} venceu`);
+        } else if (pontosTime2 > pontosTime1) {
+            alert(`${nomeTime2} venceu`);
         } else {
             alert('Empate! Não houve vencedor');
         }
